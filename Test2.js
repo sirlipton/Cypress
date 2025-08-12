@@ -2,7 +2,7 @@
 //cypress - Spec
 describe('My Second Test Suite', function () {
 
-it('My First Test Case', function () {
+it('My Second Test Case', function () {
 
 cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/') // do not include www. in the URL
 //fixture will load the data from the file
@@ -28,5 +28,6 @@ cy.contains('Proceed').click()
 
 
 } )
+
 
 } )
